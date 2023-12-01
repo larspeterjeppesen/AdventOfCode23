@@ -1,0 +1,7 @@
+## Ignore files
+*
+!*.*
+!*/
+
+## Vim indexing file
+tags
