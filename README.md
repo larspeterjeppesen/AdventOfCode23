@@ -17,3 +17,8 @@ Next time I need to build a list in whatever form, I'll try to use std::vector::
 
 ### Day 4
 The problem was solveable by looking at a single parsed line at a time. Perfect for using std::vector. I did get to use vector iterators and std::reduce. Tomorrow I will look for an opportunity to use a higher level function or an array function.
+
+
+### Day 5
+I did manage to create a lambda function today. They do not look pretty in C++, but I am happy to have made one.
+Task 2 gave me the chance to work with vectors in a few ways. Iterators are not a good idea if you're pushing work to the vector you're looping through. It took a long time to figure out how to code this thing precisely.
