@@ -22,3 +22,7 @@ The problem was solveable by looking at a single parsed line at a time. Perfect 
 ### Day 5
 I did manage to create a lambda function today. They do not look pretty in C++, but I am happy to have made one.
 Task 2 gave me the chance to work with vectors in a few ways. Iterators are not a good idea if you're pushing work to the vector you're looping through. It took a long time to figure out how to code this thing precisely.
+
+
+### Day 6
+No new concepts used today.
