@@ -29,26 +29,13 @@ int main() {
     time = time * 100 + t;
     dist = dist * pow(10, input.size()) + d;
   }
-  long start = -1;
-  long end = -1;
-  for (long i = 0; i < time; i++) {
-    long d = i * (time - i);
-    if (d > dist) {
-      start = i;
-      break;
-    }
-  }
-  for (long i = time-1; i > 0; i--) {
-    long d = i * (time - i);
-    if (d > dist) {
-      end = i;
-      break;
-    }
-  }
 
-  long res = end - start + 1;
-  
+  //Solution space is in a 2nd degree polynomial
+  //so interval between roots describe valid solutions
+  long det = sqrt(time*time - 4*dist);
+  long x1 = (-time + det)/-2;
+  long x2 = (-time - det)/-2;
+  cout  << abs(x2-x1) + 1 << endl;;
 
-  cout << res << endl;
   return 0;
 }
