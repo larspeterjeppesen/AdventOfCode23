@@ -26,3 +26,9 @@ I did use the cmath library to calculate powers, but no new C++ material enconte
 
 ### Day 7
 First encounter with hash maps - used unordered_map to count duplicate entries in a string. Very convenient
+
+### Day 8
+Nothing new, used hashmaps to solve it
+
+### Day 9
+Made a recursive solution, C-like.
